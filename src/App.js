@@ -8,7 +8,7 @@ function App() {
         <h1>Sorteio de números</h1>
       </header>
       <div>
-        <Sortear />
+        <Sortear/>
       </div>
       <footer>
         <p>Campo Grande - MS, {Date.now}</p>
