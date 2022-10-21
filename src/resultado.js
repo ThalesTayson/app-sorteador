@@ -21,9 +21,12 @@ function Resultado(props){
     
     return(
         <>  
+            <div className="lista">
             {lista.map((num) =>{
                 return <NumeroSorteado numero={num}/>
             })}
+            </div>
+            
         </>
     )
 }

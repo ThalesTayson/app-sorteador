@@ -7,12 +7,11 @@ function App() {
       <header>
         <h1>Sorteio de números</h1>
       </header>
-      <div>
+      <main>
         <Sortear/>
-      </div>
+      </main>
       <footer>
-        <p>Campo Grande - MS, {Date.now}</p>
-        <p>Thales Vargas</p>
+        <p>&copy; Desenvolvido por Thales Vargas</p>
       </footer>
     </div>
   );
